@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>About us</title>
+    <link rel="stylesheet" th:href="@{css/myStyles.css}" href="../../static/css/myStyles.css"/>
+
+    </style>
+</head>
+<body style="background-color: #E7EFF1">
+<div class="ms-background">
+    <div>
+        <nav class="ms-menu">
+            <a href="home">HOME</a>
+            <a href="reportSurplus">REPORT SURPLUS</a>
+            <a href="viewDeliveries">VIEW DELIVERIES</a>
+        </nav>
+    </div>
+</div>
+
+<div>
+
+    <div class="ms-content-box">
+        <h1 class="title">ABOUT US</h1>
+
+
+        <div class="ms-content">
+
+            <div class="text">
+                Vi er en non-profit orgranisation, der kæmper for at formindske madspild i det danske samfund.
+                Vores mål er at formindske mængden af madspild i alle sektorer med 60% inden 2025.
+                Vi tager alle sektorer med i vores overvejelser, om hvordan madspild skal bekæmpes.
+                Restaurationssektoren er dog vores primære fokus, da de står for en stor del mafspild
+                I Danmark smider vi hvert år mere end 700.000 ton mad ud.
+                Husholdningernes madspild udgør 260.000 ton. Det svarer til 24 % af affaldet i skraldespanden.
+                Hvis du vil være med til at gøre en forskel så kan du kontakte os på TeamBæver@stud.kea.dk
+            </div>
+            <img class="myImage" th:src="@{/images/madspildsmand.jpeg}" src="../images/Madspildsmand.jpeg">
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
